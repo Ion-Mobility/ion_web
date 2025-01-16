@@ -84,14 +84,12 @@ class ThemeUtil {
       );
 
   /// ColorScheme
-  ColorScheme get lightColorScheme => ColorScheme.fromSeed(
-        seedColor: Colors.cyan,
-        brightness: Brightness.light,
+  ColorScheme get lightColorScheme => ColorScheme.fromSwatch(
+        primarySwatch: Colors.cyan,
       );
 
-  ColorScheme get darkColorScheme => ColorScheme.fromSeed(
-        seedColor: Colors.cyan,
-        brightness: Brightness.dark,
+  ColorScheme get darkColorScheme => ColorScheme.fromSwatch(
+        primarySwatch: Colors.cyan,
       );
 
   /// Text Theme

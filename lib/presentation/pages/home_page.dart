@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:ion_web/common/extensions/context_extension.dart';
 import 'package:ion_web/presentation/providers/home_video_provider.dart';
+import 'package:ion_web/presentation/widgets/hover_text_button.dart';
 import 'package:video_player/video_player.dart';
 
 import '../../common/consts/dimension.dart';
@@ -142,18 +143,25 @@ class HomePage extends ConsumerWidget {
                                   ),
                                   Row(
                                     children: [
-                                      TextButton(
-                                        onPressed: () {},
-                                        style:
-                                            context.theme.textButtonTheme.style,
-                                        child: Text('DISCOVER'),
+                                      HoverTextButton(
+                                        label: 'DISCOVER',
+                                        onTap: () {},
                                       ),
-                                      TextButton(
-                                        onPressed: () {},
-                                        style:
-                                            context.theme.textButtonTheme.style,
-                                        child: Text('BOOK A TEST RIDE'),
+                                      SizedBox(
+                                        height: Dimension.xl,
+                                        width: Dimension.xxl,
+                                        child: VerticalDivider(
+                                          thickness: 1,
+                                          width: 10,
+                                          indent: 0,
+                                          endIndent: 0,
+                                          color: context.colorScheme.surface,
+                                        ),
                                       ),
+                                      HoverTextButton(
+                                        label: 'BOOK A TEST RIDE',
+                                        onTap: () {},
+                                      )
                                     ],
                                   )
                                 ],
