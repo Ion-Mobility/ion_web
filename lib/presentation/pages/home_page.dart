@@ -168,7 +168,7 @@ class HomePage extends ConsumerWidget {
                         child: Stack(
                           children: [
                             Image.asset(
-                              'images/backgrounds/m1s-6.png',
+                              'assets/images/backgrounds/m1s-6.png',
                               fit: BoxFit.fitWidth,
                               width: double.maxFinite,
                               height: MediaQuery.of(context).size.height,
@@ -209,7 +209,7 @@ class HomePage extends ConsumerWidget {
                         child: Stack(
                           children: [
                             Image.asset(
-                              'images/backgrounds/m1s-2.png',
+                              'assets/images/backgrounds/m1s-2.png',
                               fit: BoxFit.fitWidth,
                               width: double.maxFinite,
                               height: MediaQuery.of(context).size.height,
@@ -242,7 +242,7 @@ class HomePage extends ConsumerWidget {
                         child: Stack(
                           children: [
                             Image.asset(
-                              'images/backgrounds/m1s-4.png',
+                              'assets/images/backgrounds/m1s-4.png',
                               fit: BoxFit.fitWidth,
                               width: double.maxFinite,
                               height: MediaQuery.of(context).size.height,
@@ -419,7 +419,7 @@ class HomePage extends ConsumerWidget {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Image.asset(
-                                        'images/icons/ion_logo_white.png',
+                                        'assets/images/icons/ion_logo_white.png',
                                         width: 225,
                                         height: 24,
                                       ),
