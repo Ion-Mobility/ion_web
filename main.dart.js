@@ -82582,17 +82582,17 @@ o=A.afB(A.ct("DISCOVER",g,g,g,g,g,g),new A.a47(),o.ej.a)
 n=A.R(a2)
 r=A.e9(A.k2(B.c5,A.b([q,new A.dw(B.GM,A.it(A.b([p,a0,A.nt(A.b([o,A.afB(A.ct("BOOK A TEST RIDE",g,g,g,g,g,g),new A.a48(),n.ej.a)],b),B.aB,B.aK,B.am,0)],b),B.aI,B.eP,B.am,48),g)],b),B.ak,B.bE),r.a.b,f)
 n=A.bv(a2,g,e).w
-o=A.a4C("images/backgrounds/m1s-6.png",B.ft,A.bv(a2,g,e).w.a.b,f)
+o=A.a4C("assets/images/backgrounds/m1s-6.png",B.ft,A.bv(a2,g,e).w.a.b,f)
 a0=A.R(a2).p2.b
 a0=A.ct("Feel Electric",g,g,g,a0==null?g:a0.bP(A.R(a2).ax.k2),g,g)
 q=A.R(a2).p2.y
 a0=A.e9(A.k2(B.c5,A.b([o,new A.dw(B.jz,A.it(A.b([a0,A.ct("Electrify your riding experience with the M1-S.\n#madetomove",g,g,g,q==null?g:q.bP(A.R(a2).ax.k2),g,g)],b),B.aI,B.eP,B.am,48),g)],b),B.ak,B.bE),n.a.b,f)
 q=A.bv(a2,g,e).w
-p=A.a4C("images/backgrounds/m1s-2.png",B.ft,A.bv(a2,g,e).w.a.b,f)
+p=A.a4C("assets/images/backgrounds/m1s-2.png",B.ft,A.bv(a2,g,e).w.a.b,f)
 o=A.R(a2).p2.b
 q=A.e9(A.k2(B.c5,A.b([p,new A.dw(B.jz,A.it(A.b([A.ct("LOOK GOOD, FEEL GOOD",g,g,g,o==null?g:o.bP(A.R(a2).ax.k2),g,g)],b),B.aI,B.eP,B.am,48),g)],b),B.ak,B.bE),q.a.b,f)
 p=A.bv(a2,g,e).w
-o=A.a4C("images/backgrounds/m1s-4.png",B.ft,A.bv(a2,g,e).w.a.b,f)
+o=A.a4C("assets/images/backgrounds/m1s-4.png",B.ft,A.bv(a2,g,e).w.a.b,f)
 n=A.R(a2).p2.b
 p=A.e9(A.k2(B.c5,A.b([o,new A.dw(B.jz,A.it(A.b([A.ct("BUILD FOR THE CITY.\nMADE FOR THE PLANET.",g,g,g,n==null?g:n.bP(A.R(a2).ax.k2),g,g)],b),B.aI,B.eP,B.am,48),g)],b),B.ak,B.bE),p.a.b,f)
 e=A.bv(a2,g,e).w
@@ -82605,7 +82605,7 @@ l=A.R(a2)
 k=A.R(a2).p2.y
 k=k==null?g:k.bP(A.R(a2).ax.k2)
 k=A.kC(A.nt(A.b([o,new A.yu(2,B.H8,A.kC(A.aMD(A.axI(g,new A.fM(B.dZ,new A.aQ(n.ax.k2,1,B.w,-1)),g,g,g,g,g,g,!0,new A.fM(B.dZ,new A.aQ(m.ax.k2,1,B.w,-1)),g,g,g,g,g,g,g,g,g,g,g,new A.fM(B.dZ,new A.aQ(l.ax.k2,1,B.w,-1)),g,g,g,g,g,g,g,k,"Enter your email*",g,g,g,g,g,g,g,g,g,!0,g,g,g,g,g,g,g,g,A.tw(B.Hz,A.R(a2).ax.k2),g,g,g,g)),B.G,g,g,g,g,new A.aG(72,0,0,0),500),g)],b),B.aB,B.aK,B.am,0),B.G,B.c8,g,g,g,new A.aG(72,72,72,72),g)
-l=A.a4C("images/icons/ion_logo_white.png",g,24,225)
+l=A.a4C("assets/images/icons/ion_logo_white.png",g,24,225)
 m=A.R(a2).p2.r
 o=A.ct("M1-S",g,g,g,m==null?g:m.bP(A.R(a2).ax.k2),g,g)
 n=A.R(a2).p2.r
