@@ -3,10 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
-"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
+const RESOURCES = {"icons/Icon-maskable-192.png": "a20c04bb6e0c1f05f2d25a7126d6e041",
+"icons/Icon-maskable-512.png": "f00901934fab4c44dd5aa9f112d02654",
+"icons/Icon-512.png": "f00901934fab4c44dd5aa9f112d02654",
+"icons/Icon-192.png": "a20c04bb6e0c1f05f2d25a7126d6e041",
 "assets/assets/videos/ion_mobius_one_reveal.mp4": "33dcada8100a7247051d5bdd141b621f",
 "assets/assets/videos/bike_dimension_specs_desktop.mp4": "3087d99ab239cf8b6a9e79616eeacaa1",
 "assets/assets/videos/mobile-teaser.mp4": "ac6d203af43bfc38fb560d810b78ed65",
@@ -83,9 +83,9 @@ const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2e
 "index.html": "1fa5adfb1ebc84ab9e059c7c1010c99f",
 "/": "1fa5adfb1ebc84ab9e059c7c1010c99f",
 "flutter.js": "4b2350e14c6650ba82871f60906437ea",
-"favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter_bootstrap.js": "1e3fcc15b000bdeb2967eadfe456358e",
-"main.dart.js": "1f6120d6b3a98c3d1dc8e9e024d413e4"};
+"favicon.png": "c2ead2756b8be815292ab2d4a43f3a13",
+"flutter_bootstrap.js": "9244673f8defbbc134506bde2acdccc7",
+"main.dart.js": "7bc6ebef3ec5545c9ea4623b7816d03e"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
