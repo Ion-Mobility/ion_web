@@ -33,55 +33,69 @@ class HomePage extends ConsumerWidget {
       extendBodyBehindAppBar: true,
       appBar: PreferredSize(
         preferredSize: Size(double.maxFinite, 104),
-        child: Padding(
-          padding: const EdgeInsets.symmetric(
-            horizontal: Dimension.xxl,
-            vertical: Dimension.l,
-          ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              SvgPicture.network(
-                'https://ionmobility.com/images/navigation/ion_logo_white.svg',
-                height: 26.66,
-                width: 250,
-                colorFilter: ColorFilter.mode(
-                  Colors.white,
-                  BlendMode.clear,
-                ),
+        child: ValueListenableBuilder(
+          valueListenable: scrollProvider.isSnap,
+          builder: (context, value, child) {
+            return Container(
+              color:
+                  !value ? context.colorScheme.onSurface : Colors.transparent,
+              padding: const EdgeInsets.symmetric(
+                horizontal: Dimension.xxl,
+                vertical: Dimension.l,
               ),
-              Expanded(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  mainAxisSize: MainAxisSize.min,
-                  spacing: Dimension.m,
-                  children: [
-                    OutlinedButton(
-                      onPressed: () {},
-                      style: context.theme.outlinedButtonTheme.style,
-                      child: Text(
-                        'Join The Waitlist',
-                      ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  SvgPicture.network(
+                    'https://ionmobility.com/images/navigation/ion_logo_white.svg',
+                    height: 26.66,
+                    width: 250,
+                    colorFilter: ColorFilter.mode(
+                      Colors.white,
+                      BlendMode.clear,
                     ),
-                    IconButton(
-                      onPressed: () {},
-                      color: context.colorScheme.onSurface,
-                      icon: Icon(
-                        Icons.language,
-                      ),
+                  ),
+                  Expanded(
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      mainAxisSize: MainAxisSize.min,
+                      spacing: Dimension.m,
+                      children: [
+                        OutlinedButton(
+                          onPressed: () {},
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: context.colorScheme.surface,
+                            side: BorderSide(
+                              color: context.colorScheme.surface,
+                            ),
+                          ),
+                          child: Text(
+                            'Join The Waitlist',
+                          ),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          color: context.colorScheme.surface,
+                          icon: Icon(
+                            Icons.language,
+                            color: context.colorScheme.surface,
+                          ),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          color: context.colorScheme.surface,
+                          icon: Icon(
+                            Icons.menu,
+                            color: context.colorScheme.surface,
+                          ),
+                        ),
+                      ],
                     ),
-                    IconButton(
-                      onPressed: () {},
-                      color: context.colorScheme.onSurface,
-                      icon: Icon(
-                        Icons.menu,
-                      ),
-                    ),
-                  ],
-                ),
-              )
-            ],
-          ),
+                  )
+                ],
+              ),
+            );
+          },
         ),
       ),
       body: (videoProvider?.value.isInitialized ?? false)

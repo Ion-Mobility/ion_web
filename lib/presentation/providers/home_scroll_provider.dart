@@ -8,6 +8,7 @@ class HomeScrollProvider {
   final _controller = ScrollController();
   final debouncer = Debouncer(milliseconds: 100);
   final isScrolling = ValueNotifier(false);
+  final isSnap = ValueNotifier(true);
 
   // Expose the controller
   ScrollController get controller => _controller;
@@ -60,6 +61,7 @@ class HomeScrollProvider {
                 .then((_) => isScrolling.value = true)
                 .whenComplete(() => isScrolling.value = false);
           }
+          isSnap.value = page < 4;
         },
       );
     }
