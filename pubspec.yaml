@@ -42,9 +42,10 @@ dependencies:
   flutter_riverpod: ^2.6.1
   ion_core:
     git:
-      url: git@github.com/Ion-Mobility/rider.git
+      url: https://github.com/Ion-Mobility/rider.git
       ref: main
       path: packages/ion_core
+      
 dev_dependencies:
   flutter_test:
     sdk: flutter
