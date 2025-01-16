@@ -41,8 +41,10 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_riverpod: ^2.6.1
   ion_core:
-    path: ../rider/packages/ion_core
-
+    git:
+      url: https://github.com/Ion-Mobility/rider.git
+      ref: main
+      path: packages/ion_core
 dev_dependencies:
   flutter_test:
     sdk: flutter

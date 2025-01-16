@@ -224,9 +224,11 @@ packages:
   ion_core:
     dependency: "direct main"
     description:
-      path: "../rider/packages/ion_core"
-      relative: true
-    source: path
+      path: "packages/ion_core"
+      ref: main
+      resolved-ref: "6d3bd9e371e28b0096937837e3940952d6582b0b"
+      url: "https://github.com/Ion-Mobility/rider.git"
+    source: git
     version: "0.0.1"
   jwt_decoder:
     dependency: transitive
