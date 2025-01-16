@@ -14,7 +14,7 @@ class App extends ConsumerWidget {
     return ValueListenableBuilder<ThemeMode?>(
       valueListenable: provider.themeMode,
       builder: (context, themeMode, child) => MaterialApp(
-        title: 'Saldo',
+        title: 'ION Mobility',
         debugShowCheckedModeBanner: false,
         themeMode: themeMode,
         theme: provider.themeUtil(context).lightTheme,
