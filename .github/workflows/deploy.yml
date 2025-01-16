@@ -28,7 +28,7 @@ jobs:
       run: flutter pub get
 
     - name: Build for Web
-      run: flutter build web --release --base-href=/ion_web/
+      run: flutter build web --release --base-href=/ion_web/ --web-renderer html
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
